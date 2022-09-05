@@ -27,22 +27,26 @@
 
 ### 1. 引入文件
 
-下载docsify-backTop.min.js并放入js文件夹或根目录下，按路径引入文件：
+jsDelivr CDN引入或本地方式引入`docsify-backTop.min.js`文件：
 
 ```html
+<!-- jsDelivr -->
+<script src="https://cdn.jsdelivr.net/gh/Sumsung524/docsify-backTop/dist/docsify-backTop.min.js"></script>
+
+<!-- 本地引入 -->
 <script src="js/docsify-backTop.min.js"></script>
 ```
 
 
 
-引入文件示例：
+引入文件位置示例：
 
 ```html
-<head>
+<body>
     ...
-	<!-- 本地引入(js文件位于根目录下) -->
-	<script src="docsify-backTop.min.js"></script>
-</head>
+	<!-- jsDelivr -->
+	<script src="https://cdn.jsdelivr.net/gh/Sumsung524/docsify-backTop/dist/docsify-backTop.min.js"></script>
+</body>
 ```
 
 
@@ -82,8 +86,12 @@
         bgColor: ''    	// 背景颜色，#fff、pink等，logo为svg图标时，不填。
     };
 	</script>
+    <!-- jsDelivr -->
+    <script src="https://cdn.jsdelivr.net/gh/Sumsung524/docsify-backTop/dist/docsify-backTop.min.js"></script>
 </body>
 ```
+
+引入位置仅供参考，只为结构合理，无明显差异。
 
 
 
