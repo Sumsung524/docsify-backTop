@@ -3,9 +3,9 @@ window.addEventListener('DOMContentLoaded', function () {
 
     // 4. 封装函数docsifyBackTopFn()
     // 4.1 调用函数
-    docsifyBackTopFn(docsifyBackTop.size, docsifyBackTop.bottom, docsifyBackTop.right, docsifyBackTop.logo, docsifyBackTop.bgColor);
+    docsifyBackTopFn(docsifyBackTop);
     // 4.2 封装函数
-    function docsifyBackTopFn(backTopSize, backTopBottom, backTopRight, backTopLogo, backTopBGColor) {
+    function docsifyBackTopFn(obj) {
 
         // 1. 创建元素
         // 1.1 获取body元素
@@ -13,18 +13,18 @@ window.addEventListener('DOMContentLoaded', function () {
         // 1.2 创建回到顶部组件div
         var div = document.createElement('div');
         div.className = 'backTop';
-        div.innerHTML = backTopLogo;
+        div.innerHTML = obj.logo;
         body.appendChild(div);
         // 1.3 回到顶部CSS
         div.style.opacity = 0;
         div.style.position = 'fixed';
-        div.style.bottom = backTopBottom + 'px';
-        div.style.right = backTopRight + 'px';
-        div.style.width = backTopSize + 'px';
+        div.style.bottom = obj.bottom + 'px';
+        div.style.right = obj.right + 'px';
+        div.style.width = obj.size + 'px';
         div.style.height = div.style.width;
         div.style.textAlign = 'center';
         div.style.lineHeight = div.style.width;
-        div.style.backgroundColor = backTopBGColor;
+        div.style.backgroundColor = obj.bgColor;
         div.style.borderRadius = '50%';
         div.style.cursor = 'pointer';
         div.style.transition = 'opacity 0.5s';

@@ -1,6 +1,6 @@
 # docsify-backTop
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/Sumsung524/docsify-backTop/blob/master/LICENSE)[![License: MIT](https://img.shields.io/badge/version-v1.0.0-green.svg?style=flat-square)](https://github.com/Sumsung524/docsify-backTop/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/Sumsung524/docsify-backTop/blob/master/LICENSE) [![License: MIT](https://img.shields.io/badge/version-v1.0.0-green.svg?style=flat-square)](https://github.com/Sumsung524/docsify-backTop/releases)
 
 一个[docsify文档](https://docsify.js.org)的返回顶部插件，同时适用于其他需要添加回到顶部组件的所有页面。
 
@@ -8,7 +8,7 @@
 
 演示地址：[docsify backTop Demo](https://xmq.plus/docs#/git/1.%E8%B5%B7%E6%AD%A5)
 
-![screenshot](/screenshot.gif)
+![screenshot](screenshot.gif)
 
 ## 特征
 
@@ -97,12 +97,12 @@ jsDelivr CDN引入或本地方式引入`docsify-backTop.min.js`文件：
 
 ## 参数说明
 
-| 参数    | 参数取值                                                     | 说明                         |
-| ------- | ------------------------------------------------------------ | ---------------------------- |
-| size    | 数值，必填                                                   | 设置回到顶部组件大小         |
-| bottom  | 数值，必填                                                   | 设置回到顶部组件底部偏移距离 |
-| right   | 数值，必填                                                   | 设置回到顶部组件右侧偏移距离 |
-| logo    | 字符、svg代码，内容使用单引号`''`包含，必填                  | 设置回到顶部组件Logo         |
+| 参数    | 参数取值                                                                                  | 说明                         |
+| ------- | ----------------------------------------------------------------------------------------- | ---------------------------- |
+| size    | 数值，必填                                                                                | 设置回到顶部组件大小         |
+| bottom  | 数值，必填                                                                                | 设置回到顶部组件底部偏移距离 |
+| right   | 数值，必填                                                                                | 设置回到顶部组件右侧偏移距离 |
+| logo    | 字符、svg代码，内容使用单引号`''`包含，必填                                               | 设置回到顶部组件Logo         |
 | bgColor | 16进制颜色码(\#2096ff)、颜色(blue)等，内容使用单引号`''`包含，logo参数为svg图标时，不填。 | 设置回到顶部组件背景底色     |
 
 回到顶部组件Logo中的svg代码可至[阿里巴巴矢量图库](https://www.iconfont.cn/)搜索“回到顶部”，选择自己喜欢的图标复制svg代码设置。
